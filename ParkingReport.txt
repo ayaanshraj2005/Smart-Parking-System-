@@ -1,0 +1,16 @@
+=====================================
+      SMART PARKING SYSTEM REPORT
+=====================================
+
+Date & Time: Tue Feb 17 02:09:58 IST 2026
+
+Total Parking Slots      : 5
+Currently Parked Vehicles: 1
+Total Revenue Collected  : ₹170.0
+
+----------- PARKED VEHICLES -----------
+Vehicle No: BR01DC0420 | Slot No: 3
+
+=====================================
+        END OF REPORT
+=====================================
