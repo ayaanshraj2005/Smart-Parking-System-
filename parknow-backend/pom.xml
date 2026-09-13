@@ -92,6 +92,13 @@
         </dependency>
     </dependencies>
 
+        <!--spring-boot-starter-validation-->
+        <dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>2.3.0</version>
+</dependency>
+
     <build>
         <plugins>
             <plugin>
