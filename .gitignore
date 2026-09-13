@@ -1,0 +1,18 @@
+# Secrets & Environment Variables
+.env
+.env.local
+.env.production
+
+# Build Artifacts
+**/target/
+**/dist/
+**/node_modules/
+*.jar
+*.war
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+*.DS_Store
+Thumbs.db
