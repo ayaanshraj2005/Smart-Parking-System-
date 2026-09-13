@@ -100,7 +100,14 @@ public class SecurityConfig {
                 .accessDeniedHandler(accessDeniedHandler())
             )
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/api/auth/**", "/api/health", "/h2-console/**").permitAll()
+                .requestMatchers(
+                                "/api/auth/**",
+                                "/api/health",
+                                "/h2-console/**",
+                                "/swagger-ui/**",
+                                "/swagger-ui.html",
+                                "/v3/api-docs/**"
+                            ).permitAll()
                 .requestMatchers(HttpMethod.GET, "/api/parking-lots/**", "/api/parking-slots/**").permitAll()
                 .requestMatchers("/api/admin/**").hasRole("ADMIN")
                 .anyRequest().authenticated()
